@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="main.js"></script>
+
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <title>Image Gallery</title>
+    </head>
+
+    <body>
+
+        <div class="products">
+            <div class="product_slide_img">
+                <img src="./assets/dresses-1.jpg" alt="" onclick="myGallery(this)">
+                <img src="./assets/dresses-2.jpg" alt="" onclick="myGallery(this)">
+                <img src="./assets/dresses-3.jpg" alt="" onclick="myGallery(this)">
+                <img src="./assets/dresses-4.jpg" alt="" onclick="myGallery(this)">
+                <img src="./assets/dresses-5.jpg" alt="" onclick="myGallery(this)">
+            </div>
+
+            <div class="img_content">
+                <img id="img_box" src="./assets/dresses-1.jpg" alt="">
+            </div>
+
+
+            <div class="detail_content">
+                <h4>Party Flared Dress</h4>
+
+                <p>If you are a little chubby, you can hide your a little chubby figure when you in this dress because
+                    it is so loose. And you can sense the very soft material
+                    The plus size design of this dress helps you to fit well this dress even if you are a little chubby.
+                </p>
+
+                <ul>
+                    <li>It is constructed of polyester material.</li>
+                    <li>There is 5 sizes of the product to choose from: L, XL, 2XL, 3XL, 4XL.</li>
+                    <li>Long dress is suitable for work, daily wear and going out, etc.</li>
+                </ul>
+
+                <div class="reviews">
+
+                    <h5 class="rating">4.5 <span class="material-symbols-outlined"
+                            style="font-size: 18px; padding-left: 4px; color: #FFFFFF;">
+                            star
+                        </span>
+                    </h5>
+
+                    <span> 11,000 ratings and 2500 reviews
+                    </span>
+                </div>
+
+                <h4 class="price"> <strong>$50</strong> <del>$100</del> <span>(50% Off)</span></h4>
+
+                <div class="btn_groups">
+
+                    <button class="cart_btn">
+                        <span class="material-symbols-outlined" style="font-size: 19px; padding-right: 5px; ">
+                            shopping_basket
+                        </span>Buy Now
+                    </button>
+
+                    <button class="favorite_btn">
+                        <span class="material-symbols-outlined" style="font-size: 19px; padding-right: 5px; ">
+                            favorite
+                        </span> On Wishlist
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

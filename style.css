@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #000; */
+    background: #fff;
+    font-size: 18px;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: auto; */
+}
+
+.products {
+    left: 45%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+}
+
+.product_slide_img img{
+    height: 95px;
+    /* width: 95px; */
+    margin: 5px 0;
+    display: block;
+    cursor: pointer;
+
+}
+
+.product_slide_img img:hover {
+    border: 1px solid #000;
+}
+
+.img_content img {
+    height: 500px;
+}
+
+
+.detail_content {
+    padding-left: 25px;
+}
+
+.detail_content h4 {
+    font-size: 22px;
+    color: #38444D;
+}
+
+.detail_content p {
+    font-size: 14px;
+    color: #38444D;
+    margin-top: 15px;
+}
+
+.detail_content ul {
+    margin-left: 30px;
+    font-size: 14px;
+    color: #38444D;
+    margin-top: 25px;
+}
+
+.reviews {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #38444D;
+}
+
+.reviews h5 {
+    background: #059862;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.reviews span {
+    font-size: 14px;
+    color: #5c5f61;
+}
+
+.price {
+    margin-top: 25px;
+}
+
+.price strong {
+    font-size: 26px;
+    font-weight: 700;
+    color: #38444D;
+}
+
+.price del {
+    font-size: 16px;
+    font-weight: 500;
+    color: #38444D;
+}
+
+.price span {
+    color: #059862;
+}
+
+.btn_groups {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.cart_btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+    font-size: 18px;
+    background: #FF6F0E;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.favorite_btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+    font-size: 18px;
+    background: #059862;
+    color: #FFFFFF;
+    border: 0;
+}
